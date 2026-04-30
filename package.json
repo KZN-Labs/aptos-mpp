@@ -1,6 +1,6 @@
 {
-  "name": "@aptos/mpp",
-  "version": "0.1.0",
+  "name": "aptosmpp",
+  "version": "0.1.2",
   "description": "Aptos payment method for the Machine Payments Protocol (MPP)",
   "license": "Apache-2.0",
   "type": "module",
