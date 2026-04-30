@@ -1,0 +1,16 @@
+[package]
+name = "aptos_mpp"
+version = "0.1.0"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+subdir = "aptos-framework"
+rev = "mainnet"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+subdir = "aptos-stdlib"
+rev = "mainnet"
+
+[addresses]
+aptos_mpp = "_"

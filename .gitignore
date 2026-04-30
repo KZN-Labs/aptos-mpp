@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Move compiled artifacts
+move/**/build/
+
+# Environment files — NEVER commit private keys
+.env
+.env.local
+.env.*.local
+
+# Aptos CLI config — contains private keys and local wallet paths
+.aptos/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
